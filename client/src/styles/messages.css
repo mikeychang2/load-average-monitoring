@@ -1,0 +1,39 @@
+.messages {
+  background-color: #A9A9A9;
+  border-radius: 5px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  margin: 3em 0 4em 3em;
+  height: 200px;
+  width: 75%;
+}
+
+.messages-header {
+  background-color: #808080;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #999999;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.message-content {
+  background-color: #A9A9A9;
+  height: 170px;
+  overflow-y: scroll;
+}
+
+.messages-cell {
+  border: 0.5px solid #999999;
+  padding: 0.5em;
+}
+
+.messages-cell--alert {
+  background-color: #CD5C5C;
+}
+
+.messages-cell--recovered {
+  background-color: #8FBC8F;
+}

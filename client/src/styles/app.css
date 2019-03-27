@@ -1,0 +1,37 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #556B2F;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-error {
+  background-color: #A9A9A9;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  color: black;
+  font-size: 24px;
+  margin: 2em 5em;
+  padding: 3em;
+}
+
+.chart {
+  width: 85%;
+  height: 500px;
+  margin-top: 3em;
+}
